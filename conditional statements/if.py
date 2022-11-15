@@ -1,36 +1,36 @@
 # # wap to check whether given integer number is even or odd
-# _number = int(input())
+# _number = int(input("enter the num "))
 # if _number % 2 == 0:
 #     print('It is a even number')
 
 
 # # WAPTCW the given int num is greater than 10 or not
-# _number1 = int(input())
+# _number1 = int(input("enter the num "))
 # if _number1 > 10:
 #     print("Num is Greater than 10")
 
 
 # # WAPTCW the given string is having exactly 5 character or not
-# name = input()
+# name = input("enter the char ")
 # if len(name) == 5:
 #     print("Name has a 5 character")
 
 
 # # WAPTCW the given character present inside the given string or not
-# given_string = input("enter the string-")
-# char = input("enter the character-")
+# given_string = input("enter the string ")
+# char = input("enter the character ")
 # if char in given_string:
-#     print("present inside given string-")
+#     print("present inside given string ")
 
 
 # # wap to check whether given integer number is MULTIPLE of 5 or not
-# num = int(input("enter the num-"))
+# num = int(input("enter the num "))
 # if num % 5 == 0:
 #     print("the given num is multiple of 5")
 
 
 # # wap to check whether given integer number is even and MULTIPLE of 3 or not
-# num = int(input("enter the num-"))
+# num = int(input("enter the num "))
 # if num % 2 == 0 and num % 3 == 0:
 #     print("num is even and multiple of 3")
 
@@ -41,7 +41,7 @@
 #     print("Its float value")
 
 
-# # WAPTCW the given string is default or non default
+# # # WAPTCW the given string is default or non default
 # _string = ""
 # if bool(_string) == 0:
 #     print("Its default value for string")
@@ -59,11 +59,11 @@
 #     print("Its int data and greater than 100")
 
 
-# # WAPTCW the given string is having more than 5 character or not if it is having more than 5 character
+# # WAPTCW the given string is having more than 5 character or not, if it is having more than 5 character
 # then print the character present in even index
-char = input("enter the char-")
-if len(char) > 5:
-    print(char[::2])
+# char = input("enter the char ")
+# if len(char) > 5:
+#     print(char[::2])
 
 
 
