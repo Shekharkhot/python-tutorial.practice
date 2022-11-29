@@ -338,7 +338,7 @@
 # result = ''
 # if len(string) == 5:
 #     while item<len(string):
-#         result = chr((len(string)-1)-item)
+#         result = chr((len(string[item])-1)-item)
 #     item = item + 1
 # else :
 #     print('string has not a 5 character')
@@ -400,6 +400,7 @@
 # print(out)
 
 
+# wap to get the following output
 # string = 'hai hello how are you'
 # out = 'hai_hello_how_are_you'
 # string = 'hai hello how are you'
@@ -415,13 +416,13 @@
 
 
 # wap to get the following output
-# a = [ 12,'hai',7.8,'hello']
-# # out={hai:3 hello:5}
 # string = [ 12,'hai',7.8,'hello']
-# out = {}
+# out={'hai':3 'hello':5}
+# string = [ 12,'hai',7.8,'hello']
+# out = dict()
 # item = 0
 # while item < len(string):
-#     if type[string[item]] == str :
+#     if type(string[item]) in [str] :
 #         out[string[item]]=len(string[item])
 #     item = item+1
 # print(out)
@@ -432,7 +433,6 @@
 # # out= ['abcd','iah',371,'olleh']
 # item = 0
 # out=[]
-
 # while item<len(string):
 #     if item%2 ==0:
 #         out= out+[string[item]]
@@ -440,4 +440,3 @@
 #         out= out+[string[item][::-1]]
 #     item=item+1
 # print(out)
-
